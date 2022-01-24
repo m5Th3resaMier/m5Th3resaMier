@@ -1,0 +1,93 @@
+.App {
+  text-align: center;
+  background-color: #738970;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+/* 
+#first_name {
+  background-color: #e0e0e0;
+  border-radius:5px ;
+  padding-left: 100pt;
+  margin-left: 80px;
+  width: 300px;
+} */
+
+/* #password {
+  background-color: #e0e0e0;
+  border-radius:5px ;
+  padding-left: 100pt;
+  margin-left: 80px;
+  width: 300px;
+} */
+
+.h2-label {
+  margin-left:30px;
+  font-size: 14pt;
+  font-weight:500;
+}
+
+.h3-label {
+  margin-left:17px;
+  font-size: 14pt;
+  font-weight:500;
+}
+
+#h4-label {
+  margin-left:30px;
+  font-size: 14pt;
+  font-weight:500;
+  /* padding-right:230pt; */
+
+}
+.row {
+  margin:auto;
+}
+
+.main-container {
+  align-items: center;
+}
+
+.loginform-container {
+  background-color:lightcoral;
+  padding:50,100,50,100;
+}
+
+.image-container {
+  padding-top:150px;
+}
+
+
